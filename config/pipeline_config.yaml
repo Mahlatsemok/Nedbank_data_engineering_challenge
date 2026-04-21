@@ -1,0 +1,23 @@
+# =========================
+# PIPELINE CONFIGURATION
+# =========================
+
+input_path: /data/input
+output_path: /data/output
+
+# Bronze layer
+bronze_path: /data/output/bronze
+
+# Silver layer
+silver_path: /data/output/silver
+
+# Gold layer
+gold_path: /data/output/gold
+
+# -------------------------
+# Optional settings
+# -------------------------
+
+deduplication_enabled: true
+
+log_level: INFO
